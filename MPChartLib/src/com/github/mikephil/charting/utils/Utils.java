@@ -203,7 +203,7 @@ public abstract class Utils {
      * @return
      */
     public static String formatNumber(float number, int digitCount, boolean separateThousands) {
-        return formatNumber(number, digitCount, separateThousands, '.');
+        return formatNumber(number, digitCount, separateThousands, ',');
     }
 
     /**
